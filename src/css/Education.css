@@ -1,0 +1,90 @@
+.education-section{
+padding:80px 0;
+background:#ebedf1;
+transition:0.3s;
+}
+
+.education-title h2{
+font-weight:750;
+color: #5b4cf0;
+margin-bottom:10px;
+}
+
+.education-title p{
+color:#6c757d;
+margin-bottom:50px;
+}
+
+.timeline{
+position:relative;
+margin-left:20px;
+border-left:3px solid #0d6efd;
+}
+
+.timeline-item{
+position:relative;
+margin-bottom:40px;
+padding-left:30px;
+}
+
+.timeline-icon{
+position:absolute;
+left:-18px;
+top:0;
+background:#0d6efd;
+color:white;
+width:35px;
+height:35px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:16px;
+}
+
+.timeline-content{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.timeline-content:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.institute{
+color:#0d6efd;
+margin-bottom:5px;
+}
+
+.year{
+font-size:14px;
+color:#6c757d;
+display:block;
+margin-bottom:10px;
+}
+
+
+/* DARK MODE SUPPORT */
+
+.dark-mode .education-section{
+background:#0c0d0d;
+color:white;
+}
+
+.dark-mode .timeline-content{
+background:#1e293b;
+color:white;
+box-shadow:0 5px 20px rgba(0,0,0,0.4);
+}
+
+.dark-mode .education-title p{
+color:#cbd5f5;
+}
+
+.dark-mode .year{
+color:#94a3b8;
+}
