@@ -38,6 +38,7 @@ const Navbar = () => {
               <Link className="nav-link nav-item mx-2" to='/education'>Education</Link>
               <Link className="nav-link nav-item mx-2" to='/skills'>Skills</Link>
               <Link className="nav-link nav-item mx-2" to='/projects'>Projects</Link>
+              <Link className="nav-link nav-item mx-2" to='/contact'>Contact</Link>
             </ul>
           </div>
 

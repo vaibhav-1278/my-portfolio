@@ -10,6 +10,7 @@ import Skill from './components/Skill.jsx';
 import Education from './components/Education.jsx';
 import Projects from './components/Projects.jsx';
 import Footer from './components/Footer.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/skills" element={<Skill />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
 
         {/* Footer */}

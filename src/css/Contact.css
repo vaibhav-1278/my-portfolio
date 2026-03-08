@@ -1,0 +1,280 @@
+.contact-section{
+padding:100px 0;
+background:#e8eaee;
+}
+
+  
+
+/* TITLE */
+
+.contact-title{
+text-align:center;
+font-size:36px;
+font-weight:700;
+color:#475feb;
+margin-bottom:10px;
+position:relative;
+}
+
+.contact-title::after{
+content:"";
+display:block;
+width:80px;
+height:3px;
+background:rgb(91,76,240);
+margin:8px auto;
+}
+
+.contact-subtitle{
+text-align:center;
+color:#666;
+margin-bottom:60px;
+}
+
+/* CONTACT INFO */
+
+.contact-heading{
+margin-bottom:20px;
+font-weight:600;
+}
+
+.contact-card{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+background:white;
+
+padding:15px;
+
+border-radius:10px;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+
+margin-bottom:15px;
+
+}
+/* BUTTON */
+.send-btn{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:6px;
+  background:rgb(91,76,240);
+  color:white;
+  font-size:14px;
+  transition: all 0.3s ease;
+  cursor:pointer;
+}
+
+/* Hover Effect */
+.send-btn:hover{
+  opacity:0.95;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 15px rgba(79, 99, 217, 0.4);
+}
+
+.contact-card i{
+font-size:22px;
+color:#4f63d9;
+}
+
+.contact-card h6{
+margin:0;
+font-size:14px;
+}
+
+.contact-card p{
+margin:0;
+font-size:13px;
+color:#555;
+}
+
+/* FOLLOW */
+
+.follow{
+margin-top:30px;
+}
+
+.social-icons{
+margin-top:10px;
+display:flex;
+gap:15px;
+}
+
+.social-icons a{
+width:35px;
+height:35px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#eef1ff;
+border-radius:50%;
+color:#4f63d9;
+font-size:16px;
+transition:.3s;
+}
+
+.social-icons a:hover{
+background:#4f63d9;
+color:white;
+}
+
+/* FORM */
+
+.contact-form{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.contact-form h5{
+font-weight:600;
+}
+
+.form-text{
+font-size:13px;
+color:#777;
+margin-bottom:20px;
+}
+
+.form-control{
+width:100%;
+padding:10px;
+border:1px solid #ddd;
+border-radius:6px;
+margin-bottom:15px;
+font-size:14px;
+}
+
+textarea.form-control{
+height:100px;
+resize:none;
+}
+
+/* BUTTON */
+
+.send-btn{
+
+width:100%;
+
+padding:10px;
+
+border:none;
+
+border-radius:6px;
+
+background:rgb(91,76,240);
+
+color:white;
+
+font-size:14px;
+
+transition:.3s;
+
+}
+
+.send-btn:hover{
+opacity:.9;
+}
+
+/* DARK MODE */
+
+.dark-mode .contact-section{
+background:#0c0c0c;
+}
+
+.dark-mode .contact-form{
+background:#1f2937;
+}
+
+.dark-mode .contact-card{
+background:#1f2937;
+color:white;
+}
+
+.dark-mode .form-control{
+background:#374151;
+border:none;
+color:white;
+}
+.social-icons{
+margin-top:10px;
+display:flex;
+gap:15px;
+}
+
+.social-icons a{
+
+width:40px;
+height:40px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+background:#eef1ff;
+
+border-radius:50%;
+
+font-size:18px;
+
+color:#4f63d9;
+
+transition:all .3s ease;
+
+}
+
+/* Hover Effect */
+
+.social-icons a:hover{
+
+background:#4f63d9;
+
+color:white;
+
+transform:translateY(-3px);
+
+box-shadow:0 5px 12px rgba(0,0,0,0.15);
+
+}
+
+/* Brand Colors */
+
+.social-icons a:hover .fa-github{
+color:white;
+}
+
+.social-icons a:hover .fa-linkedin{
+color:white;
+}
+
+.social-icons a:hover .fa-envelope{
+color:white;
+}
+
+.social-icons a:hover .fa-whatsapp{
+color:white;
+}
+
+.contact-card{
+display:flex;
+align-items:center;
+gap:15px;
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+margin-bottom:15px;
+transition:0.3s;
+}
+
+/* normal hover */
+
+.contact-card:hover{
+box-shadow:0 15px 25px rgba(46, 58, 230, 0.12);
+}
