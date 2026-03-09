@@ -70,7 +70,7 @@ const Navbar = () => {
 
               {/* Download Resume */}
               <a
-                href="\src\assets\vg-resume..pdf"
+                href="\src\assets\vaibhav_resume.pdf"
                 download
                 className="btn btn-sm d-flex align-items-center justify-content-center btn-outline-info"
                 title="Download Resume"
