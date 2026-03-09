@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/Navbar.css";
 import { Link } from "react-router-dom";
+import resume from "../assets/vaibhav_resume.pdf";
 
 const Navbar = () => {
   const [lightMode, setLightMode] = useState(true); // start with light mode
@@ -70,7 +71,7 @@ const Navbar = () => {
 
               {/* Download Resume */}
               <a
-                href="/vaibhav_resume.pdf"
+                href={resume}
                 download="vaibhav_resume.pdf"
                 className="btn btn-sm d-flex align-items-center justify-content-center btn-outline-info"
                 title="Download Resume"
