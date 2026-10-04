@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/Navbar.css";
 import { Link } from "react-router-dom";
-import resume from "../assets/vaibhav_resume.pdf";
+import resume from "../assets/Vaibhav_Garad_Resume";
 
 const Navbar = () => {
   const [lightMode, setLightMode] = useState(true); // start with light mode

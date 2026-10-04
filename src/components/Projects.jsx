@@ -12,7 +12,7 @@ image:"/src/assets/jobportal.png",
 description:"A complete job portal platform where employers can create company profiles, post jobs and manage applications. Candidates can browse jobs from different companies and apply. Employers can shortlist or reject candidates and shortlisted candidates receive automated email notifications.",
 tech:["Node.js","Express.js","MySQL","Nodemailer"],
 link:"#",
-github:"#"
+github:"https://github.com/vaibhav-1278/Job-portal.git"
 },
 
 {
@@ -22,7 +22,7 @@ image:"src/assets/hospital.png",
 description:"A hospital platform where hospitals can register and create profiles. Patients can browse hospitals, view doctor details and book appointments based on available time slots. Online consultation features are included.",
 tech:["Node.js","Express.js","MySQL"],
 link:"#",
-github:"#"
+github:"https://github.com/vaibhav-1278/Hospital_clinic.git"
 
 },
 
@@ -33,7 +33,7 @@ image:"src/assets/hotel.png",
 description:"QR based digital menu system where customers scan table QR to view menu and place orders. Orders appear in the kitchen dashboard table-wise. Admin dashboard automatically generates bills for each table.",
 tech:["PHP","CodeIgniter","MySQL","Bootstrap","Qr Code Generator"],
 link:"#",
-github:"#"
+github:"https://github.com/vaibhav-1278/Qr_base_HotelMenuCard_system.git"
 },
 
 {
@@ -43,7 +43,7 @@ image:"src/assets/portfolio.png",
 description:"A modern developer portfolio showcasing skills, projects, education and experience. Includes dark mode, animated sections and contact form with email integration.",
 tech:["React.js","Node.js","Express.js","MailJs","MySQL"],
 link:"#",
-github:"https://github.com/vaibhav-1278/My_portfolio.git"
+github:"https://github.com/vaibhav-1278/my-portfolio.git"
 }
 
 ];
